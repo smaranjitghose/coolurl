@@ -1,0 +1,36 @@
+{
+  "name": "coolurl",
+  "version": "1.0.0",
+  "description": "A simple URL shortener service created using Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smaranjitghose/coolurl.git"
+  },
+  "keywords": [
+    "URL",
+    "shortener",
+    "Express",
+    "MongoDB",
+    "Handlebars"
+  ],
+  "author": "Smaranjit Ghose",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.3.5",
+    "nanoid": "^5.0.7",
+    "short-unique-id": "^5.2.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
